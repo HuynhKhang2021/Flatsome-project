@@ -1,0 +1,5 @@
+export const PAGE_SIZE = {
+  USER_PRODUCT_HOME: 6,
+  USER_PRODUCT_SHOP: 8,
+
+}

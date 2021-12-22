@@ -1,0 +1,3 @@
+export const CATEGORY_ACTION = {
+  GET_CATEGORY_lIST : 'GET_CATEGORY_lIST'
+}

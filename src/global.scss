@@ -1,0 +1,40 @@
+$mainColor: #fff;
+$titleText: rgba(102, 102, 102, 0.85);
+$lightText: #f1f1f1;
+
+.app {
+  width: 100%;
+}
+.quantity {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  height: 2.2em;
+  width: 80px;
+  text-align: center;
+  .quantity-minus {
+    width: 1.5em;
+    text-align: center;
+    padding-right: 4px;
+    cursor: pointer;
+  }
+  .quantity-amount {
+    font-size: 1em;
+    width: 2.2em;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+  }
+  .quantity-plus {
+    width: 1.5em;
+    text-align: center;
+    padding-left: 4px;
+    cursor: pointer;
+  }
+}
+.ant-btn-primary {
+  color: #666;
+}
